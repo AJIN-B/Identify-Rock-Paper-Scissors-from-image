@@ -126,9 +126,29 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
+5. **To Train the model**:
+```bash
+python main.py 
+```
+
+#### Note : Before run the training file download the data and put in the Data folder 
+#### Folder Arrangment
+```
+main_directory/
+...class_a/
+......a_image_1.jpg
+......a_image_2.jpg
+...class_b/
+......b_image_1.jpg
+......b_image_2.jpg
+```
+
+6. **To Test the model**:
+```bash
+python app.py -p "path for the image has to test"  
+```
 
 ### Contact
 - Name     : Ajin B
-- GITHUB   : https://github.com/AJIN-B
-- LINKEDIN : https://www.linkedin.com/in/ajin-b-0851191b0/
+- LINKEDIN : [ajin](https://www.linkedin.com/in/ajin-b-0851191b0/)
 - Mail     : ajin.b.edu@gmail.com
